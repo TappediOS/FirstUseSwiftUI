@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2D37C62327718F00D9E521 /* imageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D37C52327718F00D9E521 /* imageSwiftUIView.swift */; };
+		BF2D37C82327759300D9E521 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D37C72327759300D9E521 /* MapView.swift */; };
+		BFAB92B2233075A60090F1A7 /* Dogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB92B1233075A60090F1A7 /* Dogs.swift */; };
+		BFAB92B52330796E0090F1A7 /* Dog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB92B42330796E0090F1A7 /* Dog.xcassets */; };
+		BFAB92B7233080270090F1A7 /* DogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB92B6233080270090F1A7 /* DogDetail.swift */; };
 		BFDD5E2623276DDF007C8411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDD5E2523276DDF007C8411 /* AppDelegate.swift */; };
 		BFDD5E2823276DDF007C8411 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDD5E2723276DDF007C8411 /* SceneDelegate.swift */; };
 		BFDD5E2A23276DDF007C8411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDD5E2923276DDF007C8411 /* ContentView.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2D37C52327718F00D9E521 /* imageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageSwiftUIView.swift; sourceTree = "<group>"; };
+		BF2D37C72327759300D9E521 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BFAB92B1233075A60090F1A7 /* Dogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs.swift; sourceTree = "<group>"; };
+		BFAB92B42330796E0090F1A7 /* Dog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Dog.xcassets; sourceTree = "<group>"; };
+		BFAB92B6233080270090F1A7 /* DogDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetail.swift; sourceTree = "<group>"; };
 		BFDD5E2223276DDF007C8411 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDD5E2523276DDF007C8411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFDD5E2723276DDF007C8411 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +112,11 @@
 				BFDD5E2523276DDF007C8411 /* AppDelegate.swift */,
 				BFDD5E2723276DDF007C8411 /* SceneDelegate.swift */,
 				BFDD5E2923276DDF007C8411 /* ContentView.swift */,
+				BFAB92B6233080270090F1A7 /* DogDetail.swift */,
+				BFAB92B1233075A60090F1A7 /* Dogs.swift */,
+				BF2D37C52327718F00D9E521 /* imageSwiftUIView.swift */,
+				BF2D37C72327759300D9E521 /* MapView.swift */,
+				BFAB92B42330796E0090F1A7 /* Dog.xcassets */,
 				BFDD5E2B23276DE1007C8411 /* Assets.xcassets */,
 				BFDD5E3023276DE1007C8411 /* LaunchScreen.storyboard */,
 				BFDD5E3323276DE1007C8411 /* Info.plist */,
@@ -242,6 +257,7 @@
 			files = (
 				BFDD5E3223276DE1007C8411 /* LaunchScreen.storyboard in Resources */,
 				BFDD5E2F23276DE1007C8411 /* Preview Assets.xcassets in Resources */,
+				BFAB92B52330796E0090F1A7 /* Dog.xcassets in Resources */,
 				BFDD5E2C23276DE1007C8411 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +285,10 @@
 			files = (
 				BFDD5E2623276DDF007C8411 /* AppDelegate.swift in Sources */,
 				BFDD5E2823276DDF007C8411 /* SceneDelegate.swift in Sources */,
+				BF2D37C82327759300D9E521 /* MapView.swift in Sources */,
+				BF2D37C62327718F00D9E521 /* imageSwiftUIView.swift in Sources */,
+				BFAB92B2233075A60090F1A7 /* Dogs.swift in Sources */,
+				BFAB92B7233080270090F1A7 /* DogDetail.swift in Sources */,
 				BFDD5E2A23276DDF007C8411 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
